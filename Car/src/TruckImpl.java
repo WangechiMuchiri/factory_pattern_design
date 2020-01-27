@@ -12,7 +12,7 @@ public class TruckImpl implements Car{
 
     @Override
     public int speed(int mileage) {
-        int maxSpeed = mileage*20;
+        int maxSpeed = mileage*hours;
         //System.out.println("WOZZAP");
         return maxSpeed;
     }

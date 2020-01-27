@@ -12,7 +12,7 @@ public class BentleyImpl implements Car{
 
     @Override
     public int speed(int mileage) {
-        int maxSpeed = mileage*10;
+        int maxSpeed = mileage*hours;
         return maxSpeed;
     }
 }

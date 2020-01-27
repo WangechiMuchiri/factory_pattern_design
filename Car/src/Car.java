@@ -11,5 +11,6 @@
 public interface Car {
     
     public int speed(int mileage);
+    int hours =4;
        
 }

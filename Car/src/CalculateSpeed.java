@@ -17,8 +17,12 @@ public class CalculateSpeed {
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter type of car:");
         String carType = myObj.nextLine();
+        
+        Scanner miles = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter mileage:");
+        int numOfMiles = miles.nextInt();
         CarFactory cf = new CarFactory("");
-        System.out.println(cf.getCar(carType).speed(4)); 
+        System.out.println(cf.getCar(carType).speed(numOfMiles)+ "KPH"); 
         
     }
 
